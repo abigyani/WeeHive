@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.abhishek.weehive.Intro"
+    style="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/viewLine" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8B008B"
+        android:id="@+id/viewLine"
+        android:layout_above="@+id/button3"
+        android:alpha="1"/>
+
+    <Button
+        android:text="Got It"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#9932CC"
+        android:background="@null" />
+
+    <Button
+        android:text="Don't Show Again"
+        android:layout_width="wrap_content"
+        android:textColor="#9932CC"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button4"
+        android:background="@null"
+        android:padding="5dp" />
+
+
+</RelativeLayout>

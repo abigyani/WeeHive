@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_full_screen_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    tools:context="com.example.abhishek.weehive.FullScreenImage"
+    android:background="@android:color/black">
+
+    <ImageView
+        app:srcCompat="@drawable/com_facebook_button_icon_blue"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/full_image"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/view_title"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_name"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="11dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/view_title"
+        android:layout_alignStart="@+id/view_title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/full_image_ll"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_view"
+            app:srcCompat="@android:drawable/ic_menu_view"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:text="809"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_views"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_popularity"
+            android:layout_marginLeft="90dp"
+            android:text="20%"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="8dp" />
+
+        <ImageButton
+            app:srcCompat="@drawable/white_heart"
+            android:id="@+id/click_heart"
+            android:background="@drawable/tw__transparent"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="30dp"
+            android:layout_width="40dp" />
+
+        <TextView
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:id="@+id/view_hearts"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/full_image_ll"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/view_time"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>

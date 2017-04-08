@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_people__detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhishek.weehive.People_Detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/people_ll">
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/people_pic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:text="Abhishek Kumar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_purple"
+        android:id="@+id/people_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="#E6E6FA"
+        android:textAlignment="center"
+        android:paddingTop="3dp" />
+
+    <TextView
+        android:text="ak47gyani@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/people_email"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:text="Popularity : 80%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/people_time"
+        android:paddingTop="5dp"
+        android:text="Last Seen : dd/mm/yyyy"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="POSTS"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:background="#E6E6FA"
+        android:textAlignment="center"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent" />
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/people_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/people_ll">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

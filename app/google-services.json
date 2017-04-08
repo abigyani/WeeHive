@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739645639473",
+    "firebase_url": "https://weehive-87bda.firebaseio.com",
+    "project_id": "weehive-87bda",
+    "storage_bucket": "weehive-87bda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739645639473:android:e5b564f1023c9328",
+        "android_client_info": {
+          "package_name": "com.example.abhishek.weehive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739645639473-aeebn45c0bt9h8f7hak5011d2nq2sht3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhishek.weehive",
+            "certificate_hash": "396CE9914C24E45C5B20F598960B17B518E7C1C0"
+          }
+        },
+        {
+          "client_id": "739645639473-gh07rbbi2cg02j09s2b8pt256e5sg2dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhGCkeY4wofAW0n8ByRkFkPIQR8hncLTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739645639473-gh07rbbi2cg02j09s2b8pt256e5sg2dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

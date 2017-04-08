@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filter_view"
+        android:orderInCategory="101"
+        android:title="View Count" />
+
+    <item
+        android:id="@+id/filter_like"
+        android:orderInCategory="102"
+        android:title="Like Count"/>
+
+    <item
+        android:id="@+id/filter_popularity"
+        android:orderInCategory="100"
+        android:title="Popularity" />
+
+    <item
+        android:id="@+id/filter_time"
+        android:orderInCategory="103"
+        android:title="Time" />
+
+</menu>

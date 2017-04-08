@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhishek.weehive.Fragment_My_Feed">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_filter_list_white_24dp"
+        android:background="@color/colorPrimaryDark"
+        app:backgroundTint="@android:color/holo_purple"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/feed_float_button" />
+
+</RelativeLayout>

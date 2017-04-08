@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Feed" />
+        <item
+            android:id="@+id/my_feed"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Feed" />
+
+    </group>
+
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@mipmap/ic_exit_to_app_black_24dp"
+                android:title="Sign Out" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@mipmap/ic_power_settings_new_black_24dp"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
